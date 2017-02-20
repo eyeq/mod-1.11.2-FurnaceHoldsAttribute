@@ -7,7 +7,7 @@ import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 
 public class GetSmeltingResultMethodTransformer extends MethodTransformer implements Opcodes {
-    public static final String THIS_CLASS_NAME = "eyeq/furnaceholdsattribute/asm/GetSmeltingResultMethodTransformer";
+    public static final String THIS_CLASS_NAME = "eyeq/furnaceholdsattribute/asm/item/crafting/GetSmeltingResultMethodTransformer";
 
     public static final String TARGET_CLASS_NAME = "net.minecraft.item.crafting.FurnaceRecipes";
     public static final String[] TARGET_METHOD_NAME = {"getSmeltingResult", "func_151395_a"};

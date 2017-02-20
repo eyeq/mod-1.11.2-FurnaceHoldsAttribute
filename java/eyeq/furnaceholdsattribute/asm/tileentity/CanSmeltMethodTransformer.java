@@ -7,7 +7,7 @@ import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 
 public class CanSmeltMethodTransformer extends MethodTransformer implements Opcodes {
-    public static final String THIS_CLASS_NAME = "eyeq/furnaceholdsattribute/asm/CanSmeltMethodTransformer";
+    public static final String THIS_CLASS_NAME = "eyeq/furnaceholdsattribute/asm/tileentity/CanSmeltMethodTransformer";
 
     public static final String TARGET_CLASS_NAME = "net.minecraft.tileentity.TileEntityFurnace";
     public static final String[] TARGET_METHOD_NAME = {"canSmelt", "func_145948_k"};
