@@ -1,4 +1,4 @@
-package eyeq.furnaceholdsattribute.asm;
+package eyeq.furnaceholdsattribute.asm.item.crafting;
 
 import eyeq.util.asm.NodeUtils;
 import eyeq.util.asm.MethodTransformer;
@@ -8,6 +8,7 @@ import org.objectweb.asm.tree.*;
 
 public class GetSmeltingResultMethodTransformer extends MethodTransformer implements Opcodes {
     public static final String THIS_CLASS_NAME = "eyeq/furnaceholdsattribute/asm/GetSmeltingResultMethodTransformer";
+
     public static final String TARGET_CLASS_NAME = "net.minecraft.item.crafting.FurnaceRecipes";
     public static final String[] TARGET_METHOD_NAME = {"getSmeltingResult", "func_151395_a"};
     public static final String TARGET_METHOD_DESC = "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;";

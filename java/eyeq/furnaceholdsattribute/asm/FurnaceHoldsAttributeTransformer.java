@@ -1,5 +1,7 @@
 package eyeq.furnaceholdsattribute.asm;
 
+import eyeq.furnaceholdsattribute.asm.item.crafting.GetSmeltingResultMethodTransformer;
+import eyeq.furnaceholdsattribute.asm.tileentity.CanSmeltMethodTransformer;
 import eyeq.util.asm.NodeUtils;
 import net.minecraft.launchwrapper.IClassTransformer;
 
